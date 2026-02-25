@@ -1,3 +1,10 @@
+Version 3.8.2
+-------------
+
+- Tweaked TM scoring to penalize length mismatch.
+- Fixed handling of absolute file references.
+
+
 Version 3.8.1
 -------------
 
