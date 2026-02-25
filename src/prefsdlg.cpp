@@ -1097,7 +1097,7 @@ public:
         // NB: Must be done first, before calling AppUpdates methods!
         Config::CheckForBetaUpdates(m_beta->GetValue());
 
-        AppUpdates::Get().EnableAutomaticChecks(m_beta->GetValue());
+        AppUpdates::Get().EnableAutomaticChecks(m_updates->GetValue());
     }
 
 private:
